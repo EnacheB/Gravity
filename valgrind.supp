@@ -1,0 +1,248 @@
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   obj:/usr/lib/libdrm_intel.so.1.0.0
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/mesa/libGL.so.1.2.0
+   obj:/usr/lib/mesa/libGL.so.1.2.0
+   fun:glXCreateContext
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   obj:/usr/lib/libdrm_intel.so.1.0.0
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/mesa/libGL.so.1.2.0
+   obj:/usr/lib/mesa/libGL.so.1.2.0
+   fun:glXCreateContext
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   obj:/usr/lib/libdrm_intel.so.1.0.0
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/mesa/libGL.so.1.2.0
+   obj:/usr/lib/mesa/libGL.so.1.2.0
+   fun:glXCreateContext
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:dl_open_worker
+   fun:_dl_catch_error
+   fun:_dl_open
+   obj:/usr/lib/libdl-2.22.so
+   fun:_dl_catch_error
+   obj:/usr/lib/libdl-2.22.so
+   fun:dlopen
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   fun:_ZN4ViewC1EP9GameState
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   fun:_ZN4ViewC1EP9GameState
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:calloc
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/xorg/modules/dri/i965_dri.so
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   fun:malloc
+   fun:strdup
+   obj:/usr/lib/libX11.so.6.3.0
+   fun:_XimSetICValueData
+   fun:_XimLocalCreateIC
+   fun:XCreateIC
+    ...
+   fun:_ZN4ViewC1EP9GameState
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   match-leak-kinds: definite
+   obj:/usr/lib/libdrm_intel.so.1.0.0
+    ...
+   obj:/usr/lib/xorg/modules/*
+}
+
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Param
+   writev(vector[...])
+   obj:/usr/lib/libc-2.22.so
+   obj:/usr/lib/libxcb.so.1.1.0
+   obj:/usr/lib/libxcb.so.1.1.0
+   fun:xcb_writev
+   fun:_XSend
+   fun:_XReply
+   fun:XInternAtom
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+   obj:/usr/lib/libSDL2-2.0.so.0.2.1
+}
+
